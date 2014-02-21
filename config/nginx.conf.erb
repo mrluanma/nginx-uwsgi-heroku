@@ -31,6 +31,7 @@ http {
 
     location / {
       include uwsgi_params;
+      more_set_headers 'X-Request-Id: $http_x_request_id';
       uwsgi_pass unix:/tmp/nginx.socket;
     }
   }
