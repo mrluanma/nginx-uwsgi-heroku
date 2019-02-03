@@ -1,0 +1,12 @@
+{
+  "name": "nginx-uwsgi-heroku",
+  "description": "Deploy WSGI app on Heroku with uwsgi + Nginx",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku-community/nginx"
+    }
+  ]
+}
