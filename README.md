@@ -15,6 +15,6 @@ Or hardcore mode
 $ heroku create
 $ heroku buildpacks:set heroku/python
 $ heroku buildpacks:add heroku-community/nginx
-$ git push heroku master
+$ git push heroku main
 $ heroku open
 ```
